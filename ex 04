@@ -13,13 +13,14 @@ func main() {
 	slice := []int{1, 567, 10, 44, 5, 654, 7, 8, 9, 33}
 	fmt.Println("len(slice) = ", len(slice))
 	fmt.Println(slice)
-
+//fiz copiando mas naão entendi esse total 
 	total := 1
 
 	for _, valor := range slice {
 		total += valor
 	}
-	fmt.Println(total)
+// tambem não entendi pq é fora da chave
+fmt.Println(total)
 
 }
 
