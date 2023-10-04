@@ -1,0 +1,17 @@
+//Crie um Array de floats com 4 elementos e calcule
+// o produto dos valores armazenados no Array.
+
+package main
+
+import "fmt"
+
+func main() {
+
+	inteiros := [4]int{10, 20, 30, 40}
+	total := 0
+
+	for _, valor := range inteiros {
+		total += valor
+	}
+	fmt.Println(total)
+}
